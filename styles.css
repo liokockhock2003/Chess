@@ -55,7 +55,15 @@ body{
   color: #b58863;
 }
 
+.piece {
+  width: 100%;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 .piece img{
+  height: auto;
   max-width: 100%;
   width: 100%;
 }
